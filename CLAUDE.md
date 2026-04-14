@@ -73,3 +73,22 @@ When the user asks to add a new agent:
 2. **Next week** — First real DILS QC run on investment-tracker
 3. **Following** — Security Auditor + Learning Tracker live
 4. **Future** — Collaboration Manager + CRM Connector
+
+## Strategic decision (Apr 14, 2026)
+**Build everything from scratch — do NOT copy agents from GitHub/YouTube.**
+External resources for inspiration only. Each agent built = skill internalized.
+
+## First real-estate-specific agent to build
+**Deal Screener** — paste teaser PDF/text → score against DILS investment criteria → recommendation. Most immediate value, simplest scope, best learning vehicle.
+
+Other agents on roadmap (build over next 4 weeks):
+- Investor Matcher (rank LPs from CRM by fit)
+- NDA Negotiator (diff counter-proposals against standard)
+- Pipeline Forecaster (close probability)
+- Email Drafter (context-aware investor outreach)
+- Comparable Finder (search past deals)
+- Compliance Auditor (KYC/AML/GDPR pre-invite)
+
+## Next session (TOMORROW or later)
+This is a separate Claude Code session — open Claude here in `dils-agents/`, not in investment-tracker.
+First task: implement Deal Screener with Noah (skill transfer mode).
