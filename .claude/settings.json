@@ -1,0 +1,12 @@
+{
+  "projectName": "DILS Agents",
+  "description": "Cross-project AI agent infrastructure for DILS",
+  "owner": "Noah Maatoke",
+  "context": {
+    "primaryPurpose": "Run specialized agents against any project",
+    "scope": "cross-project",
+    "agentsDir": "agents",
+    "configDir": "config",
+    "reportsDir": "reports"
+  }
+}
