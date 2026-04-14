@@ -1,0 +1,99 @@
+{
+  "version": "0.1",
+  "target": "Claude Architect",
+  "categories": [
+    {
+      "name": "Full-Stack Development",
+      "skills": [
+        { "id": "nextjs-app-router", "name": "Next.js 14 App Router", "level": "intermediate", "evidence": "Multiple projects with (group)/ routes, Server Components, Server Actions" },
+        { "id": "typescript", "name": "TypeScript (strict)", "level": "intermediate", "evidence": "tsconfig strict mode, typed Prisma models, Zod inference" },
+        { "id": "tailwind", "name": "Tailwind CSS + custom theme", "level": "intermediate", "evidence": "Custom gold palette, responsive classes, utility-first" },
+        { "id": "shadcn-ui", "name": "shadcn/ui components", "level": "intermediate", "evidence": "10+ components customized" },
+        { "id": "react-hook-form", "name": "React Hook Form + Zod", "level": "intermediate", "evidence": "Form validation in dialogs" },
+        { "id": "tanstack-table", "name": "TanStack Table", "level": "intermediate", "evidence": "Sortable/filterable pipeline table" }
+      ]
+    },
+    {
+      "name": "Database & Backend",
+      "skills": [
+        { "id": "prisma-orm", "name": "Prisma ORM (14+ models, relations, indexes)", "level": "intermediate", "evidence": "Complex schema with FKs, enums, JSON fields, indexes" },
+        { "id": "postgres", "name": "PostgreSQL (Supabase)", "level": "intermediate", "evidence": "Pooler connection, SQL migrations" },
+        { "id": "server-actions", "name": "Next.js Server Actions (transactions)", "level": "intermediate", "evidence": "Transactions, revalidation, role checks" },
+        { "id": "nextauth", "name": "NextAuth (JWT, 4 roles)", "level": "intermediate", "evidence": "Multi-role auth, middleware routing" },
+        { "id": "data-integrity", "name": "Transaction wrapping, race condition prevention", "level": "advanced", "evidence": "Atomic token validation, ownership checks" }
+      ]
+    },
+    {
+      "name": "Security & Auth",
+      "skills": [
+        { "id": "rbac", "name": "Role-based access control", "level": "intermediate", "evidence": "ADMIN/EDITOR/VIEWER/INVESTOR hierarchy" },
+        { "id": "tenant-isolation", "name": "Multi-tenant isolation (companyId scoping)", "level": "advanced", "evidence": "Investor only sees their company's data" },
+        { "id": "signed-urls", "name": "Private storage + signed URLs", "level": "intermediate", "evidence": "Supabase private bucket, 2h signed URLs" },
+        { "id": "bcrypt", "name": "bcrypt password hashing", "level": "beginner", "evidence": "Cost 12 hashing on user creation" },
+        { "id": "race-conditions", "name": "Race condition prevention", "level": "advanced", "evidence": "Atomic transaction with WHERE usedAt IS NULL" },
+        { "id": "xss-prevention", "name": "XSS prevention (sanitize, no dangerouslySetInnerHTML)", "level": "advanced", "evidence": "HTML stripping on comments" },
+        { "id": "idor-prevention", "name": "IDOR prevention (ownership checks)", "level": "advanced", "evidence": "getSignedDocumentUrl company match" }
+      ]
+    },
+    {
+      "name": "Document & Signing",
+      "skills": [
+        { "id": "pdf-lib", "name": "PDF manipulation (pdf-lib)", "level": "advanced", "evidence": "Server-side signature embedding" },
+        { "id": "pdfjs", "name": "PDF text extraction (pdfjs-dist)", "level": "advanced", "evidence": "Placeholder scanner with coordinate conversion" },
+        { "id": "canvas-signature", "name": "Canvas signature pad", "level": "intermediate", "evidence": "Mouse/touch drawing, PNG export" },
+        { "id": "signing-tokens", "name": "One-time signing tokens", "level": "intermediate", "evidence": "30-day expiry, atomic usedAt check" },
+        { "id": "field-placement", "name": "Placeholder-based field placement", "level": "advanced", "evidence": "{{SIGNATURE}} text scanning" }
+      ]
+    },
+    {
+      "name": "Email & Communication",
+      "skills": [
+        { "id": "resend", "name": "Resend API + branded templates", "level": "intermediate", "evidence": "HTML invite emails" },
+        { "id": "email-auth-flow", "name": "Email-based auth flows", "level": "intermediate", "evidence": "Invitation with credentials, password reset" },
+        { "id": "email-tracking", "name": "Open/click tracking via webhooks", "level": "beginner", "evidence": "Planned" },
+        { "id": "custom-domain", "name": "Custom domain email (DNS verification)", "level": "beginner", "evidence": "Planned for dils.com" }
+      ]
+    },
+    {
+      "name": "Deployment & DevOps",
+      "skills": [
+        { "id": "vercel", "name": "Vercel (auto-deploy, env vars)", "level": "intermediate", "evidence": "Production deploys from GitHub" },
+        { "id": "github-workflow", "name": "GitHub workflow (commits, push, gh CLI)", "level": "intermediate", "evidence": "30+ commits, fluent workflow" },
+        { "id": "docker", "name": "Docker (local dev)", "level": "beginner", "evidence": "docker-compose for PostgreSQL" },
+        { "id": "supabase-storage", "name": "Supabase Storage (private buckets, lazy init)", "level": "intermediate", "evidence": "File upload/download with signed URLs" },
+        { "id": "production-debugging", "name": "Production debugging (build errors, env issues)", "level": "intermediate", "evidence": "Fixed Supabase init, Node 25 issue, Vercel config" }
+      ]
+    },
+    {
+      "name": "AI Agent Workflows",
+      "skills": [
+        { "id": "agent-orchestration", "name": "Agent orchestration (parallel execution)", "level": "advanced", "evidence": "15+ agents in 3 waves, coordinated output" },
+        { "id": "agent-types", "name": "Agent types (General, Explore, Plan)", "level": "intermediate", "evidence": "Used all 3 appropriately" },
+        { "id": "agent-briefing", "name": "Agent briefing patterns", "level": "advanced", "evidence": "Complete context handoff, specific tasks" },
+        { "id": "agent-verification", "name": "Agent output verification", "level": "intermediate", "evidence": "Caught bugs from agent code" },
+        { "id": "qa-agents", "name": "QA agents (security, UX, performance)", "level": "advanced", "evidence": "Launched pen test + UX audit + load test agents" },
+        { "id": "custom-agents", "name": "Building own agents", "level": "beginner", "evidence": "DILS Quality Checker being built now" },
+        { "id": "claude-api", "name": "Claude API direct usage", "level": "not-started", "evidence": "Planned" }
+      ]
+    },
+    {
+      "name": "Testing & QA",
+      "skills": [
+        { "id": "code-audits", "name": "Automated code audits via agents", "level": "advanced", "evidence": "42+ bugs found, 40+ fixed" },
+        { "id": "customer-journey", "name": "Customer journey testing", "level": "intermediate", "evidence": "Full admin + investor walkthrough" },
+        { "id": "bug-triage", "name": "Prioritized bug triage (critical/high/med/low)", "level": "intermediate", "evidence": "Systematic resolution" },
+        { "id": "production-testing", "name": "Live production testing on Vercel + Supabase", "level": "intermediate", "evidence": "End-to-end flows tested" }
+      ]
+    },
+    {
+      "name": "Product & Architecture",
+      "skills": [
+        { "id": "user-journeys", "name": "Thinking in user journeys (not features)", "level": "advanced", "evidence": "Two-portal design, gated access logic" },
+        { "id": "data-modeling", "name": "Data modeling (14+ model schema)", "level": "intermediate", "evidence": "Relational with audit trails" },
+        { "id": "integration-design", "name": "Integration handoff design", "level": "intermediate", "evidence": "CTO integration guide written" },
+        { "id": "cost-analysis", "name": "Infrastructure cost analysis", "level": "beginner", "evidence": "€0 MVP, €65/mo production estimate" },
+        { "id": "security-first-thinking", "name": "Security-first product thinking", "level": "advanced", "evidence": "Asked about security before launch" }
+      ]
+    }
+  ]
+}

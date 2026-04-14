@@ -1,0 +1,42 @@
+{
+  "version": "0.1",
+  "lastUpdated": "2026-04-14",
+  "weights": {
+    "security": 25,
+    "performance": 20,
+    "codeQuality": 15,
+    "documentation": 15,
+    "productionReadiness": 15,
+    "dilsConventions": 10
+  },
+  "thresholds": {
+    "passScore": 70,
+    "criticalFailScore": 50,
+    "maxAnyUsage": 10,
+    "maxUnboundedQueries": 0,
+    "minDocsCoverage": 5
+  },
+  "required": {
+    "auth": true,
+    "rbac": true,
+    "auditTrail": true,
+    "gdprNotice": true,
+    "privacyContact": "privacy@dils.com",
+    "attribution": "DILS Group B.V."
+  },
+  "techStack": {
+    "framework": "Next.js 14+ (App Router)",
+    "database": "PostgreSQL (Supabase)",
+    "orm": "Prisma",
+    "auth": "NextAuth",
+    "email": "Resend",
+    "ui": "Tailwind + shadcn/ui",
+    "hosting": "Vercel",
+    "language": "TypeScript (strict)"
+  },
+  "branding": {
+    "primaryColor": "#d4a843",
+    "backgroundTone": "#f9f6ef"
+  },
+  "notes": "This file is the source of truth for DILS prototype QA. Update with CTO input."
+}
