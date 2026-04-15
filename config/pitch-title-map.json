@@ -1,0 +1,41 @@
+{
+  "description": "Maps incoming section titles (English or variants) to the canonical Dutch section names used in the DILS template.",
+  "mapping": {
+    "Key Facts": "Key Facts",
+    "Kernfeiten": "Key Facts",
+
+    "Market Analysis": "Marktanalyse",
+    "Marktanalyse": "Marktanalyse",
+    "Market": "Marktanalyse",
+
+    "Location Analysis": "Locatieanalyse",
+    "Locatieanalyse": "Locatieanalyse",
+    "Location": "Locatieanalyse",
+
+    "Competitor Analysis": "Concurrentieanalyse",
+    "Competition": "Concurrentieanalyse",
+    "Concurrentieanalyse": "Concurrentieanalyse",
+
+    "Sub-area": "Subgebied",
+    "Sub area": "Subgebied",
+    "Subgebied": "Subgebied",
+
+    "Tenant Profile": "Huurdersprofiel",
+    "Huurdersprofiel": "Huurdersprofiel",
+
+    "Target Audience": "Doelgroep",
+    "Target Group": "Doelgroep",
+    "Doelgroep": "Doelgroep",
+
+    "Building Adjustments": "Gebouw Aanpassingen",
+    "Building Modifications": "Gebouw Aanpassingen",
+    "Gebouw Aanpassingen": "Gebouw Aanpassingen",
+
+    "Marketing Strategy": "Marketingstrategie",
+    "Marketingstrategie": "Marketingstrategie",
+
+    "Commercial Advice": "Commercieel Advies",
+    "Advisory": "Commercieel Advies",
+    "Commercieel Advies": "Commercieel Advies"
+  }
+}

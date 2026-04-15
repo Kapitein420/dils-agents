@@ -1,0 +1,28 @@
+{
+  "description": "The DILS pitch template — which slide index corresponds to each section, and which tokens need replacement.",
+  "templatePath": "C:/Users/NoahMaatoke_exjgg4d/OneDrive - Dils SpA/Empty Page - Dils Style.pptx",
+  "outputDir": "C:/Users/NoahMaatoke_exjgg4d/OneDrive - Dils SpA/generated-pitches/",
+  "metadataDir": "C:/Automation/Github/dils-agents/reports/pitch-builder/",
+  "fixed": {
+    "cover": { "slideIndex": 1, "tokens": ["{building_name}", "{city}"] },
+    "toc": { "slideIndex": 2, "auto": "regenerated from requested section list" },
+    "closing": { "slideIndex": 13, "tokens": [] }
+  },
+  "sections": {
+    "Key Facts": { "slideIndex": 3, "tokens": ["{section_label}", "{key_facts_kpi_summary}"] },
+    "Marktanalyse": { "slideIndex": 4, "tokens": ["{section_label}", "{marktanalyse_analyse_tekst}"] },
+    "Locatieanalyse": { "slideIndex": 5, "tokens": ["{section_label}", "{locatieanalyse_beschrijving}"] },
+    "Concurrentieanalyse": { "slideIndex": 6, "tokens": ["{section_label}", "{concurrentie_vergelijking}"] },
+    "Subgebied": { "slideIndex": 7, "tokens": ["{section_label}", "{subgebied_omschrijving}"] },
+    "Huurdersprofiel": { "slideIndex": 8, "tokens": ["{section_label}", "{huurdersprofiel_overzicht}"] },
+    "Doelgroep": { "slideIndex": 9, "tokens": ["{section_label}", "{doelgroep_segmentatie}"] },
+    "Gebouw Aanpassingen": { "slideIndex": 10, "tokens": ["{section_label}", "{gebouw_aanpassingen_specificaties}"] },
+    "Marketingstrategie": { "slideIndex": 11, "tokens": ["{section_label}", "{marketing_strategie_plan}"] },
+    "Commercieel Advies": { "slideIndex": 12, "tokens": ["{section_label}", "{commercieel_advies_aanbevelingen}"] }
+  },
+  "placeholderText": "[Wordt door Noah ingevuld — to be filled]",
+  "naming": {
+    "filePattern": "pitch-{clientSlug}-{YYYY-MM-DD}.pptx",
+    "metadataPattern": "pitch-{clientSlug}-{YYYY-MM-DD}.json"
+  }
+}
