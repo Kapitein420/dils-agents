@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-04-15T10:57:00Z",
+  "client": "Verlengingspitch — Test",
+  "city": "Amsterdam",
+  "assetType": "Office",
+  "language": "nl",
+  "useCase": "Lease renewal pitch (verlengingspitch)",
+  "sectionsRequested": [
+    "Intro DILS",
+    "Gebouw en huurder (kerngegevens huurovereenkomst)",
+    "Marktanalyse Amsterdam — Opname",
+    "Marktanalyse — Leegstand",
+    "Marktanalyse — Time to Market & Incentives",
+    "Marktanalyse — Huurprijsontwikkeling Prime Rents",
+    "Marktanalyse — Pipeline & Nieuwbouw",
+    "Amsterdam Centrum — Marktdynamiek",
+    "Amsterdam Centrum — Aanbod & Vraag",
+    "Benchmarking & Concurrentie",
+    "Voorbeelden Succesvolle Verlenging",
+    "Aanknopingspunten Verlenging & Vervolgstappen"
+  ],
+  "slidesGenerated": 15,
+  "structure": "cover + TOC + 12 content slides + closing",
+  "templateSlideReuse": {
+    "Marktanalyse (slide4)": 5,
+    "Locatieanalyse (slide5)": 2,
+    "Commercieel Advies (slide12 generic layout)": 3
+  },
+  "outputPath": "C:/Users/NoahMaatoke_exjgg4d/OneDrive - Dils SpA/generated-pitches/pitch-verlenging-test-2026-04-15.pptx",
+  "outputSizeMB": 17.6,
+  "contentGenerated": true,
+  "knownIssues": [
+    "TOC slide (slide 2) still shows original template section labels (KEY FACTS, MARKTANALYSE, etc.) — doesn't auto-regenerate yet. Manual edit required OR Phase 1.5 enhancement.",
+    "Em-dash characters render correctly in the .pptx; markitdown stdout shows replacement char only because Windows console can't display them."
+  ],
+  "phase": "1a",
+  "nextSteps": [
+    "Open in PowerPoint to visually verify layout preservation",
+    "If acceptable, add TOC auto-regeneration to the skill",
+    "Then proceed to Phase 1b (email trigger via Power Automate)"
+  ]
+}
